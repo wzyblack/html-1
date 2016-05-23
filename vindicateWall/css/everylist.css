@@ -1,0 +1,66 @@
+@import url(base.css);
+
+.protrait{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	background-color: #ccc;
+}
+
+.userinformation{
+	width: 530px;
+	height: auto;
+	float: right;
+}
+
+.nickname{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.text{
+	width: 500px;
+	word-wrap: break-word;
+	margin: 20px auto auto 10px;
+	text-indent: 2em;
+}
+
+.illustration{
+	width: 500px;
+	height: 150px;
+	margin: 20px auto auto 10px;
+	background: #ddd;
+}
+
+.choice{
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.choice ul li{
+	float: left;
+	width: 70px;
+	line-height: 30px;
+	text-align: right;
+}
+
+.choice ul li a{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+}
+
+.choice ul li:first-child { background: url(../img/indexImg/icons.png) 25px 0px no-repeat; }
+.choice ul li:nth-child(2) { background: url(../img/indexImg/icons.png) 15px -48px no-repeat; }
+.choice ul li:nth-child(3) { background: url(../img/indexImg/icons.png) 15px -25px no-repeat; }
+.choice ul li:nth-child(4) { background: url(../img/indexImg/icons.png) 15px -73px no-repeat; }
+
+
+

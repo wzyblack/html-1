@@ -1,0 +1,117 @@
+@import url(base.css);
+@import url(head.css);
+@import url(sidernav.css);
+@import url(sideright.css);
+@import url(page.css);
+
+#container{
+	width: 100%;
+	overflow: hidden;
+	background: rgba(250,213,202,0.8) url(../img/find/containerbg.png) center bottom no-repeat;
+}
+
+.article{
+	width: 700px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	background: #ccc url(../img/indexImg/contentbg.jpg);
+	margin-left: 150px;
+	margin-bottom: 60px;
+}
+
+
+.search_man{
+	background: #fff;
+	width: 640px;
+	line-height: 60px;
+	margin: 20px auto;
+}
+
+.search_man label{
+	margin-left: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+}
+
+.hot_man{
+	width: 200px;
+	height: 25px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+input[placeholder]{
+	padding-left: 20px;
+}
+
+.search_man_submit{
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	border:none;
+	font-size: 10px;
+	box-shadow: rgba(150,150,150,.5) 3px 3px 3px;
+	-webkit-box-shadow: rgba(150,150,150,.5) 3px 3px 3px;
+	-moz-box-shadow: rgba(150,150,150,.5) 3px 3px 3px;
+	background: #3c3849;
+	color: #fff;
+	margin-left: 40px;
+	cursor: pointer;
+}
+
+.lastest_ranking{
+	width: 640px;
+	margin: 30px auto;
+}
+
+.lastest_ranking ul li{
+	border-top: 1px solid #CCC;
+	margin-top: 20px;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+	height: 200px;
+	z-index: 1;
+}
+
+.user{
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+.user p{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.box{
+	width: 430px;
+	float: right;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+
+.text{
+	width: 400px;
+	font-size: 15px;
+}
+
+.lastest_ranking ul li img{
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.lastest_ranking ul li img.rankStatus{
+	position: absolute;
+	top: -25px;
+	right: -25px;
+}
+
+.num{
+	position: absolute;
+	top: -25px;
+	right: 15px;
+	font-weight: bold;
+}

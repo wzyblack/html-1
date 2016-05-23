@@ -1,0 +1,101 @@
+@import url(base.css);
+@import url(head.css);
+@import url(page.css);
+@import url(everylist.css);
+@import url(personal_nav.css);
+
+.nav ul li:nth-child(3) a{
+	background: url(../img/header/headernav.jpg);
+}
+
+.information{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: #222 url(../img/personal/couple.png) no-repeat right bottom;
+}
+ 
+/* 主体部分左边开始 */
+.information_left{
+	width: 800px;
+	height: auto;
+	float: left;
+	margin-top: 20px
+}
+
+.information_left ul.outul{
+	width: 742px;
+	border-left: 2px solid #000;
+	float: left;
+	margin-left: 100px;
+}
+
+.articles{
+	position: relative;
+	width: 640px;
+	margin-bottom: 60px;
+	margin-right: 60px;
+	float: right;
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.choice ul li a{
+	color: #fff;
+}
+
+.time{
+	position: absolute;
+	width: 150px;
+	line-height: 30px;
+	left: -220px;
+	top: 18px;
+	color: #fff;
+	text-align: center;
+	background: #000;
+}
+
+.radius{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: -55px;
+	top: 20px;
+	background-color: #000;
+	border-radius: 50%;
+	clear: both;
+	border: 2px solid #222;
+}
+
+.triangle{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	left: -30px;
+	top: 28px;
+	border-width: 30px 0px 0 32px ; 
+	border-color: #000 transparent transparent transparent ;
+	border-style: solid;
+}
+
+.triangleTwo{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	right: -20px;
+	top: 5px;
+	border-width: 10px; 
+	border-color: transparent transparent transparent #000;
+	border-style: solid;
+}
+
+/* 主体部分左边结束 */
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {  
+	line-height: 1.5;
+	background: rgba(250,213,202,0.8);
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+ul,li{
+	list-style: none;
+}
+
+img{
+	border: 0;
+}
+
+p { word-wrap: break-word }
+
+#section{
+	width: 1194px;
+	height: auto;
+	margin: 20px auto;	
+}
+
+.clearfix{
+	*zoom: 1;
+}
+.clearfix::after{
+	content: '';
+	display: table;
+	clear: both;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册页面</title>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="../css/loginRegister.css" /> 
+	<link type="image/x-icon" href="img/icon.ico" rel="icon"/>
+	<script type="text/javascript" src="../js/loginregister.js" /></script>
+</head>
+<body>
+		<div id="header">
+			<ul>
+				<div class="logo"><img src="../img/indexImg/logo.png" alt="logo" /></div>		
+				<div class="search">
+					<form action="" method="post">
+						<input type="text" class="search_input" id="search_input" name="search" placeholder="搜索" />
+						<input type="submit" class="submit" name="submit" value="搜索" />		
+					</form>
+				</div>
+				<div class="nav" id="change">
+					<ul>
+						<li><a href="../index.html">表白广场</a></li>
+						<li><a href="find.html">发现</a></li>
+						<li><a href="personal.html">个人中心</a></li>
+					</ul>
+				</div>
+				<div class="personal">
+				<!--
+					<div class="personal_type">
+						<span class="personal_protrait"></span>
+						<label class="personal_name"><a href="html/personal.html">刘基达</a></label>
+					</div>
+					-->
+					<div class="login_reg">
+						<a class="login" href="login.html">登录</a>
+						<span class="ver_line">|</span>
+						<a class="reg" href="register.html">注册</a>
+					</div>
+				</div>
+			</ul>
+		</div>
+		<div id="container" class="registerContainer">
+			<div class="login-register" id="login-register">
+				<form name="information">
+					<div class="userimage">
+						<img src="../img/login-register/user.png" alt="userimage" />
+					</div>
+					<div class="user">
+						<label for="username">用户名：</label>
+						<input type="text" name="username" id="username" pattern="[A-Za-z]{3,}" placeholder="由字母(大小写），且3位以上组成" />
+					</div>
+					<div class="user" id="user_sex">
+						<label for="sex">性别：</label>
+						<input type="radio" name="sex" id="male" checked="" />男
+						<input type="radio" name="sex" id="female" />女
+					</div>
+					<div class="user">
+						<label for="password">密&nbsp;&nbsp;码：</label>
+						<input type="password" name="password" id="password" pattern="[A-Za-z0-9]{6,}" placeholder="由字母数字，至少六个字符">
+					</div>
+					<div class="user">
+						<label for="againpassword">确认密码：</label>
+						<input type="tel" name="myphone" id="againpassword" pattern="[0-9]{11}" placeholder="请确认您的密码">
+					</div>
+					<div class="user">
+						<label for="myemail">邮&nbsp;&nbsp;箱：</label>
+						<input type="email" name="myemail" id="myemail" placeholder="请输入邮箱" />
+					</div>
+					<input type="submit" name="submit" id="submit" value="注册" />
+					<div class="question"><a href="login.html">已有账号？立即登录</a></div>
+				</form>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/currentLocation.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@import url(base.css);
+@import url(head.css);
+@import url(page.css);
+@import url(everylist.css);
+@import url(personal_nav.css);
+
+.nav ul li:nth-child(3) a{
+	background: url(../img/header/headernav.jpg);
+}
+
+.information{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: #222 url(../img/personal/couple.png) no-repeat right bottom;
+}
+
+/* 主体部分左边开始 */
+.information_left{
+	width: 760px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+	border: 1px solid #000;
+	background-color: #000;
+}
+
+.my_card{
+	width: 100%;
+	height: auto;
+}
+
+.my_card_title_every{
+	float: left;
+}
+
+.card_aboutme,.activity_aboutme{
+	display: block;
+	padding: 20px 20px 0px;
+}
+
+.card_aboutme{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(250,213,202);
+}
+
+.activity_aboutme{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+
+.card_aboutme_triangle{
+	display: block;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-color: transparent transparent #ccc transparent ;
+	border-style: solid;
+	margin-left: 50px;
+}
+
+.activity_aboutme_triangle{
+	display: none;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-color: transparent transparent #ccc transparent ;
+	border-style: solid;
+	margin-left: 50px;
+}
+
+.articles{
+	border: 1px solid #ccc;
+	width: 640px;
+	margin: 30px 60px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: rgba(255,255,255,0.5);
+}
+
+.time{
+	color: #222;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+/*活动部分*/
+.activities{
+	display: none;
+	width: 700px;
+	margin: 30px auto;
+}
+
+.activities li{
+	border: 1px solid #ccc;
+	width: 700px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background: rgba(255,255,255,0.5);
+}
+
+h2{
+	padding: 10px;
+}
+
+.image{
+	width: 700px;
+	height: 300px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.image img{
+	max-width: 700px;
+	max-height: 300px;
+}
+
+.content{
+	margin-top: 20px;
+	
+}
+
+.left{
+	width: 307px;
+	float: left;
+	padding: 20px 10px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.right{
+	width: 307px;
+	float: right;
+	padding: 20px 10px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	margin: 10px;
+}
+
+/* 主体部分左边结束 */

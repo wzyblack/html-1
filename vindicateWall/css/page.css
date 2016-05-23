@@ -1,0 +1,36 @@
+/*分页*/
+div.black{
+	padding:7px;
+	margin:3px;
+	text-align:center;
+	float: right;
+}
+div.black a{
+	border:#000000 1px solid;
+	padding:2px 5px;margin:2px;
+	color:#000000;
+	text-decoration:none;
+}
+div.black a:hover{
+	border:#000000 1px solid;
+	color:#fff;
+	background-color:#000;
+}
+div.black a:active{
+	border:#000000 1px solid;
+	color:#fff;
+	background-color:#000;
+}
+div.black span.current{
+	border:#000000 1px solid;
+	padding:2px 5px;
+	font-weight:bold;
+	margin:2px;color:#fff;
+	background-color:#000000;
+}
+div.black span.disabled{
+	border:#ccc 1px solid;
+	padding:2px 5px;
+	margin:2px;
+	color:#ddd;
+}

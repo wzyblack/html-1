@@ -1,0 +1,70 @@
+@import url(base.css);
+@import url(head.css);
+@import url(sidernav.css);
+@import url(sideright.css);
+@import url(page.css);
+@import url(everylist.css);
+
+#container{
+	width: 100%;
+	overflow: hidden;
+	background: rgba(250,213,202,0.8) url(../img/indexImg/bg.png) center bottom no-repeat;
+}
+
+
+/*article start*/
+.article{
+	width: 700px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	background: #ccc url(../img/indexImg/contentbg.jpg);
+	margin-left: 150px;
+	margin-bottom: 60px;
+}
+
+.publish_form{
+	width: 640px;
+	margin: 30px;
+	background: #fff;
+}
+
+.message{
+	width: 580px;
+	height: 150px;
+	margin: 30px;
+}
+
+.publish{
+	width: 100px;
+	height: 30px;
+	margin-left: 500px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	border: none;
+	box-shadow: rgba(150,150,150,.5) 5px 5px 5px;
+	-webkit-box-shadow: rgba(150,150,150,.5) 5px 5px 5px;
+	-moz-box-shadow: rgba(150,150,150,.5) 5px 5px 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.articles{
+	border: 1px solid #ccc;
+	width: 640px;
+	margin: 30px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: rgba(255,255,255,0.5);
+}
+
+.time{
+	color: #222;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+
+
+

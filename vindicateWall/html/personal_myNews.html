@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的消息</title>
+	<link rel="stylesheet" type="text/css" href="../css/personal_myNews.css">
+	<link type="image/x-icon" href="img/icon.ico" rel="icon"/>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div class="logo"><img src="../img/indexImg/logo.png" alt="logo" /></div>	
+			<div class="search">
+				<form action="" method="post">
+					<input type="text" class="search_input" id="search_input" name="search" placeholder="搜索" >
+					
+					<input type="submit" class="submit" name="submit" value="搜索">
+					
+				</form>
+			</div>
+			<div class="nav" id="change">
+				<ul>
+					<li><a href="../index.html">表白广场</a></li>
+					<li><a href="../html/find.html">发现</a></li>
+					<li><a href="../html/personal.html">个人中心</a></li>
+				</ul>
+			</div>
+			<div class="personal">
+			<!--
+				<div class="personal_type">
+					<span class="personal_protrait"></span>
+					<label class="personal_name"><a href="html/personal.html">刘基达</a></label>
+				</div>
+				-->
+				<div class="login_reg">
+					<label class="login"><a href="html/login.html">登录</a></label>
+					<label class="ver_line">|</label>
+					<label class="reg"><a href="html/register.html">注册</a></label>
+				</div>
+			</div>
+		</div>
+		<div id="section">
+			<div class="user" id="idTransformView2">
+		  		<ul class="slider slider2" id="idSlider2">
+		    		<li>
+		    			<img src="../img/personal/userbg2.jpg" />
+		    		</li>
+		    		<li>
+		    			<img src="../img/personal/userbg.jpg"/>
+		    		</li>
+		    		<li>
+		    			<img src="../img/personal/userbg3.jpg"/>
+		    		</li>
+		  		</ul>
+		  		<ul class="num" id="idNum2">
+	    			<li></li>
+	   	 			<li></li>
+	    			<li></li>
+	  			</ul>
+		  		<div class="username">
+		  			<img src="../img/user/ljd.jpg" />
+		  			<p>刘基达</p>
+		  		</div>
+			</div>
+
+			<div class="information">
+				<div class="information_left">
+					<div class="my_card">
+						<div class="my_card_title">
+							<div class="my_card_title_every">
+								<a class="card_aboutme" id="ca" href="##" onclick="showca()">@我的帖子</a>
+								<span class="card_aboutme_triangle" id="card_triangle"></span>
+							</div>
+							<div class="my_card_title_every"s>
+								<a class="activity_aboutme" id="aa" href="##" onclick="showaa()">@我的活动</a>
+								<span class="activity_aboutme_triangle" id="activity_triangle"></span>
+							</div>
+							<div class="clearfix"></div>
+						</div>			
+						<ul class="main_body" id="card">
+							<li class="articles">
+								<div class="protrait"><!-- 用户头像 --></div>
+								<div class="userinformation">
+									<p class="nickname">刘基达</p>
+									<p class="time">2016-04-06</p>
+									<p class="text">Curtain (英文网名注释:落幕)Allure Love (英文网名注释:倾城恋)Mo Maek (英文名翻译成中文:莫陌)Tenderness (网名翻译:温存)Flowers (英文网名注释:繁花)</p>
+									<p class="illustration"><!-- 配图 --></p>
+									<div class="choice">
+										<ul>
+											<li><a href="">赞</a></li>
+											<li><a href="">评论</a></li>
+											<li><a href="">分享</a></li>
+											<li><a href="">收藏</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+							<li class="articles">
+								<div class="protrait"><!-- 用户头像 --></div>
+								<div class="userinformation">
+									<p class="nickname">刘基达</p>
+									<p class="time">2016-04-06</p>
+									<p class="text">Curtain (英文网名注释:落幕)Allure Love (英文网名注释:倾城恋)Mo Maek (英文名翻译成中文:莫陌)Tenderness (网名翻译:温存)Flowers (英文网名注释:繁花)</p>
+									<p class="illustration"><!-- 配图 --></p>
+									<div class="choice">
+										<ul>
+											<li><a href="">赞</a></li>
+											<li><a href="">评论</a></li>
+											<li><a href="">分享</a></li>
+											<li><a href="">收藏</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+						<ul class="activities" id="act">
+							<li>
+								<h2>校园招募会</h2>
+								<div class="image">
+									<img src="../img/latest_activity/cslg.jpg">
+								</div>
+								<div class="content">
+									<div class="left">
+										<p>发起人：刘基达</p>
+										<p>活动时间：5月15日</p>
+										<p>活动地点：大活演奏厅</p>
+										<span class="join_num">已有<strong>120</strong>人参加</span>
+										<input type="submit" class="join" value="我要参加" />	
+									</div>
+									<div class="right">
+										<p>活动介绍：</p>
+										<p class="right_text">月溅星河，长路漫漫，风烟残尽，独影阑珊，谁叫我身手不凡，谁让我爱恨两难，到后来，肝肠寸断，幻世当空，恩怨休怀，舍悟离迷，六尘不改，且怒且悲且狂哉，是人是鬼是妖怪，不过是，心有魔债，叫一声佛祖，回头无岸，跪一人为师，生死无关，善恶浮世真假界，尘缘散聚不分明。
+										</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>	
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="information_right">
+					<div class="user-detail">
+						<div class="detail collect">
+							<p>110</p>
+							<p>关注</p>
+						</div>
+						<div class="detail fans">
+							<p>313</p>
+							<p>粉丝</p>
+						</div>
+					</div>
+
+					<div class="nav_right" id="nav_right">
+						<ul>
+							<li>
+								<a href="../html/personal_information.html">完善个人资料</a>
+								<p class="badge">45%<!-- 资料完成度 --></p>
+							</li>
+							<li><a href="../html/personal.html">我的帖子</a><p class="badge">8</p></li>
+							<li><a href="../html/personal_myNews.html">我的消息</a><p class="badge">8</p></li>
+							<li><a href="../html/personal_myCollection.html">我的收藏</a><p class="badge">8</p></li>
+						</ul>	
+					</div>
+
+					<div class="attraction">
+						<div class="title">我关注的人</div>
+						<ul>
+							<li>
+								<img src="../img/user/ljd.jpg"></span>
+								<a href="">刘基达</a>
+							</li>
+							<li>
+								<img src="../img/user/pyz.jpg"></span>
+								<a href="">刘基达</a>
+							</li>
+							<li>
+								<img src="../img/user/sq.jpg"></span>
+								<a href="">刘基达</a>
+							</li>
+							<li>
+								<img src="../img/user/zxf.jpg"></span>
+								<a href="">刘基达</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/changetext.js"></script>
+	<script type="text/javascript" src="../js/personalnavLocation.js"></script>
+	<script type="text/javascript" src="../js/changeimg.js"></script>
+</body>
+</html>

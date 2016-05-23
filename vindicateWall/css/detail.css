@@ -1,0 +1,107 @@
+@import url(base.css);
+@import url(head.css);
+@import url(everylist.css);
+@import url(everyActivity.css);
+
+.article{
+	width: 700px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	background: #ccc url(../img/indexImg/contentbg.jpg);
+	margin-bottom: 60px;
+}
+
+.publish_form{
+	width: 640px;
+	margin: 30px;
+	background: #fff;
+}
+
+.message{
+	width: 580px;
+	height: 150px;
+	margin: 30px;
+}
+
+.publish{
+	width: 100px;
+	height: 30px;
+	margin-left: 500px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	border: none;
+	box-shadow: rgba(150,150,150,.5) 5px 5px 5px;
+	-webkit-box-shadow: rgba(150,150,150,.5) 5px 5px 5px;
+	-moz-box-shadow: rgba(150,150,150,.5) 5px 5px 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.articles{
+	border: 1px solid #ccc;
+	width: 640px;
+	margin: 30px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: rgba(255,255,255,0.5);
+}
+
+.time{
+	color: #222;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+/* 留言开始 */
+
+.comments{
+	width: 450px;
+	float: right;
+	background: #000;
+	overflow: hidden;
+}
+
+.comments h2{
+	padding: 10px;
+	color: #fff;
+}
+
+.comments ul li{
+	width: 430px;
+	margin: 10px;
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.user_protrait{
+	float: left;
+	width: 50px;
+	height: 50x;
+	margin: 10px;
+	border: 1px solid #000;
+}
+
+.user_detail{
+	width: 350px;
+	float: right;
+}
+
+.comment_name{
+	padding: 10px 0;
+}
+
+.comments_text{
+	text-indent: 2em;
+}
+
+.comment_time{
+	float: right;
+	padding-right: 10px;
+}
+/* 留言结束 */
+
+
+/**/

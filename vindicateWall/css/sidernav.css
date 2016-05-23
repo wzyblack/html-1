@@ -1,0 +1,42 @@
+/*sidebar*/
+#sidebar{
+	position: fixed;
+	width: 150px;
+	height: auto;
+	z-index: 99;
+	background: #79BEE8;
+}
+#sidebar img{
+	position: absolute;
+	z-index: 100;
+	left: 110px;
+	top: -35px;
+}
+
+#sidebar ul{
+	list-style: none;
+}
+
+#sidebar ul li{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	background: url(../img/sidenav/navbg.jpg) left top no-repeat;
+}
+
+#sidebar ul li a{
+	display: block;
+	width: 150px;
+	line-height: 40px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+ 
+#sidebar ul li a:hover{
+	background: url(../img/sidenav/navbg_current.jpg) left top no-repeat;
+}
+
+#sidebar_current{
+	background: url(../img/sidenav/navbg_current.jpg) left top no-repeat;
+	color: #ffffff;
+}

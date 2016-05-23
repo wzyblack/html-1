@@ -1,0 +1,39 @@
+@import url(base.css);
+@import url(head.css);
+@import url(sideright.css);
+@import url(page.css);
+@import url(everylist.css);
+
+/*article start*/
+.article{
+	width: 700px;
+	height: auto;
+	float: left;
+	background: #ccc url(../img/indexImg/contentbg.jpg);
+	margin:40px auto 60px 150px;
+}
+
+.article img.title{
+	position: absolute;
+	left: -100px;
+	top: -60px;
+}
+
+.articles{
+	border: 1px solid #ccc;
+	width: 640px;
+	margin: 30px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: rgba(255,255,255,0.5);
+}
+
+.time{
+	color: #222;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.sidebar_right{
+	margin-top: 40px;
+}
